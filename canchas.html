@@ -9,20 +9,20 @@
 </head>
 <body>
 	<section>
-		<select>
-			<option>Selecciona</option>
-			<option>Cancha de foot-ball</option>
-			<option>Cancha de basquet-ball</option>
-			<option>Cancha de tenis</option>
+		<select id="botonCancha">
+			<option value="0">Selecciona</option>
+			<option value="1">Cancha de foot-ball</option>
+			<option value="2">Cancha de basquet-ball</option>
+			<option value="3">Cancha de tenis</option>
 		</select>
-		<select>
-			<option>Selecciona</option>
-			<option>Balón de foot-ball</option>
-			<option>Balón de basquet-ball</option>
-			<option>Pelota de tenis</option>
+		<select id="botonBalon">
+			<option value="0">Selecciona</option>
+			<option value="1">Balón de foot-ball</option>
+			<option value="2">Balón de basquet-ball</option>
+			<option value="3">Pelota de tenis</option>
 		</select>
 	</section> 
-	<section>
+	<section id="futbol" hidden="true">
 		<div class="cancha-foot">
 			<div class = "contorno">
 				<div class="balon-foot"></div>
@@ -36,7 +36,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="basquet" hidden="true">
 		<div class="cancha-basquet">
 			<div class="contorno">
 				<div class="balon-basquet"></div>
@@ -54,7 +54,7 @@
 			<div class="media-cancha"></div>
 		</div>
 	</section>
-	<section>
+	<section id="tenis" hidden="true">
 		<div class="cancha-tenis">
 			<div class="contorno">
 				<div class="pelota-tenis"></div>
@@ -66,6 +66,7 @@
 			</div>
 		</div>
 	</section>
+	<script src="canchas.js" ></script>
 </body>
 </html>
 
