@@ -1,0 +1,77 @@
+section{
+	margin: 20px;
+}
+.cancha-foot{
+	background: green;
+	padding: 10px;
+	width: 600px;
+	height: 300px;
+}
+
+.contorno{
+	border: 2px solid white;
+	width: 600px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.linea{
+	border-right: 2px solid white;
+	height: 300px;
+	width: 300px;
+}
+
+.porteria{
+	height: 200px;
+	width: 100px;
+	border: 2px solid white;
+	position: relative;
+	top: 48px;
+}
+
+.derecha{
+	float: right;
+}
+
+.media-cancha{
+	width: 100px;
+	height: 100px;
+	border:2px solid white;
+	border-radius: 50%;
+	position: relative;
+	bottom: 198px;
+	left: 248px;
+}
+
+.area-de-tiro{
+	 width: 50px; 
+     height: 100px; 
+     border: 2px solid white; 
+}
+
+.derecho{
+	border-radius:  100px 0 0 100px ;
+	float: right;
+	position: relative;
+	top: 98px;
+	left: 2px;
+}
+
+.izquierdo{   
+	 border-radius: 0 100px 100px 0;
+	 position: relative;
+	 bottom: 105px;
+	 left: 102px;
+}
+
+.balon-foot{
+	width: 20px;
+	height: 20px;
+	border:2px solid black;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	top: 98px;
+	left: 398px;
+	float: left;
+}

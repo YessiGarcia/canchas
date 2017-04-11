@@ -1,0 +1,77 @@
+.cancha-basquet{
+	background: gray;
+	padding: 10px;
+	width: 600px;
+	height: 300px;
+}
+
+.tiro-de-3{
+	 width: 320px; 
+     height: 280px; 
+     border: 2px solid white; 
+     border-radius: 50%;
+     position: relative;
+}
+
+.izquierda2{
+	left: -150px;
+	top :8px;
+}
+
+.derecha2{
+	left: 420px;
+	bottom: 292px;
+}
+
+.reloj-izquierdo{
+	border-left: 100px solid white;
+	border-right: 100px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+	position: relative;
+	left: 148px;
+	top: 90px;
+	height: 60px;
+
+}
+
+.reloj-derecho{
+	border-left: 100px solid transparent;
+	border-right: 100px solid white;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+	position: relative;
+	right: 142px;
+	top: 90px;
+	height: 60px;
+
+}
+
+.tiro-libre{
+	width: 60px;
+	height: 60px;
+	border:2px solid black;
+	border-radius: 50%;
+	position: absolute;
+	top: 108px;
+}
+
+.derecho2{
+	right: 210px
+}
+
+.izquierdo2{
+	left: 218px;
+}
+
+.balon-basquet{
+	width: 30px;
+	height: 30px;
+	border:2px solid black;
+	background: orange;
+	border-radius: 50%;
+	position: relative;
+	top: 90px;
+	left: 358px;
+	float: left;
+}

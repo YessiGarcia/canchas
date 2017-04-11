@@ -1,0 +1,37 @@
+.cancha-tenis{
+	background: blue;
+	padding: 10px;
+	width: 600px;
+	height: 300px;
+}
+
+.posicion{
+	position: absolute;
+}
+
+.centro{
+	height: 220px;
+	width: 600px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	margin-top: 38px;
+}
+
+.centro2{
+	width: 400px;
+	height: 107px;
+	margin: auto;
+	border: 2px solid white;
+}
+
+.pelota-tenis{
+	width: 15px;
+	height:15px;
+	border:2px solid black;
+	background: green;
+	border-radius: 50%;
+	position: relative;
+	top: 90px;
+	left: 358px;
+	float: left;
+}
